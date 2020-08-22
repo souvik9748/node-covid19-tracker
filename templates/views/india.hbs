@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>India Covid19 Details</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" href="/img/icon.png">
+    </head>
+    <body>
+        <h1>India Covid-19 Details</h1>
+        {{>header}}
+        {{>middle}}
+        <form>
+            <h3>Please provide the place:</h3>
+            <select>
+                <option value="Select">Select</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Assam">Assam</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="Goa">Goa</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Ladakh">Ladakh</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        
+
+        <p id="message1"></p>
+        <p id="message2"></p>
+        <h3>Please select a date to get the data(Dates before current date):</h3>
+        <form id="form2">
+            <input type="date" id="start" name="search-date"
+            value="2018-07-22"
+            min="2018-01-01">
+            <input type="submit" id ="input2" value="Submit">
+        </form>
+        <p id="message3"></p>
+        <p id="message4"></p>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>

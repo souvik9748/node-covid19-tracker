@@ -1,0 +1,70 @@
+body{
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-class{
+    flex-grow: 1;
+}
+.potrait{
+    width: 200px;
+}
+.linksToAccounts{
+    color: #12313d;
+    margin-right: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.quote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+footer{
+    border-top: 2px solid #eeeeee;
+    margin-top: 16px;
+    
+}
+.forHeader{
+    color: #888888;
+    border-bottom: 2px solid #eeeeee;
+}
+header{
+    margin-top:16px;
+    margin-bottom:48px;
+    border-bottom: 2px solid #eeeeee;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+h2{
+    color: #888888;
+    margin-right: 16px;
+}
+header a{
+    text-decoration: none;
+    color: #888888;
+    margin-right: 16px;
+}
+footer a{
+    text-decoration: none;
+    color: #333333;
+}
+.links2{
+    color: #888888;
+    margin-right: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.forMiddle{
+    color:#888888;
+    text-decoration: none;
+    margin-right: 16px;
+}
